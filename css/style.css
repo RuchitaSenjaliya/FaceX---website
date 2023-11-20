@@ -43,7 +43,7 @@ ul {
   border-radius: 28px;
 }
 .landing-page .navbar .btn-blue {
-  padding: 0 28px;
+  padding: 7px 28px;
 }
 .btn-white {
   background-color: #fff;
@@ -211,6 +211,7 @@ ul {
   border-radius: 30px;
   position: relative;
   overflow: hidden;
+  margin-bottom: 48px;
 }
 .case-study .re-design-box .back {
   position: relative;
@@ -576,6 +577,7 @@ ul {
   line-height: 72px;
   letter-spacing: -0.03em;
   text-align: left;
+  margin-top: 34px;
 }
 .logo {
   text-align: end;
@@ -617,7 +619,7 @@ ul {
   display: none;
 }
 .h-56 {
-  height: 560px;
+  height: 430px;
 }
 
 .footer .copyright {

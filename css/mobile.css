@@ -164,6 +164,17 @@
     line-height: 30px;
     padding: 32px 40px 64px 40px;
   }
+  .top-space,
+  .top-space2 {
+    padding: 0 0 0 0;
+  }
+  .founders-guarantee .right {
+    padding: 28px 40px;
+  }
+  .founders-guarantee .right .feedback {
+    font-size: 1.2rem;
+    line-height: 34px;
+  }
   .hide-img {
     display: none;
   }
@@ -510,6 +521,57 @@
   }
   .h-56 {
     height: auto;
+  }
+}
+@media screen and (max-width: 321px) {
+  .landing-page .home .big-title {
+    font-size: 3rem;
+    line-height: 64px;
+  }
+
+  .case-study .header .title {
+    font-size: 2rem;
+    line-height: 38px;
+  }
+
+  .case-study .re-design-box .title {
+    font-size: 1.75rem;
+  }
+
+  .blue-box .big-title {
+    font-size: 2rem;
+    line-height: 56px;
+  }
+  .blue-box .big-title span {
+    font-size: 2rem;
+    line-height: 56px;
+  }
+
+  .heading .title {
+    font-size: 2.5rem;
+    padding-right: 0;
+  }
+  .get-in-touch .form {
+    padding: 24px;
+  }
+
+  .get-in-touch {
+    padding: 265px 24px 0 24px;
+  }
+  .get-in-touch .header .title {
+    font-size: 2.5rem;
+    line-height: 48px;
+    text-align: start;
+  }
+
+  .footer .links {
+    font-size: 2rem;
+  }
+  .accordion-button {
+    font-size: 1.2rem;
+  }
+  .accordion-body {
+    font-size: 1rem;
   }
 }
 
