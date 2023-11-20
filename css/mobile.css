@@ -1,0 +1,521 @@
+@media screen and (max-width: 1400px) {
+  .case-study .re-design-box .left-text {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    width: 45%;
+    margin-top: 65px;
+  }
+  .founders-guarantee .right .feedback {
+    font-size: 2rem;
+    line-height: 54px;
+  }
+  .get-in-touch .header .contact-icons {
+    width: 50%;
+    margin: auto;
+  }
+  .get-in-touch .form {
+    width: 60%;
+  }
+  .h-56 {
+    height: 420px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .landing-page .navbar .nav-item .nav-link {
+    margin: 0 6px;
+    font-size: 1rem;
+  }
+  .landing-page .home .home-content .top {
+    width: 80%;
+    margin: auto;
+    padding: 0 50px;
+  }
+  .landing-page .home .home-content .bottom {
+    width: 100%;
+  }
+  .chat-bubble {
+    position: absolute;
+    right: 132px;
+    top: 155px;
+  }
+  .case-study .re-design-box .back .front {
+    position: absolute;
+    top: 0;
+    right: -27px;
+    z-index: 5;
+  }
+  .case-study .re-design-box .title {
+    font-size: 2.1rem;
+    line-height: 51px;
+  }
+  .case-study .re-design-box .msg {
+    font-size: 1rem;
+  }
+  .founders-guarantee .right .feedback {
+    font-size: 1.7rem;
+    line-height: 44px;
+  }
+  .founders-guarantee .right .para {
+    padding: 24px 0;
+    font-size: 24px;
+    line-height: 29px;
+  }
+  .testimonials .msg-box .msg {
+    font-size: 16px;
+  }
+  .testimonials .msg-box {
+    padding: 40px 24px;
+  }
+  .get-in-touch .header .contact-icons {
+    width: 50%;
+    margin: auto;
+  }
+  .testimonials .msg-box .user-detail .info {
+    font-size: 0.8rem;
+  }
+  .footer .links {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 1025px) {
+  .case-study .header .title {
+    font-size: 3rem;
+    line-height: 62px;
+    padding-top: 38px;
+  }
+  .blue-box .big-title {
+    width: 100%;
+  }
+  .btn-blue {
+    font-size: 1.188rem;
+    padding: 14px 28px;
+  }
+  .btn-blue:hover {
+    font-size: 1.188rem;
+    padding: 14px 28px;
+  }
+  .btn-white {
+    padding: 14px 28px;
+    font-size: 1.188rem;
+  }
+  .btn-white:hover {
+    padding: 14px 28px;
+    font-size: 1.188rem;
+  }
+}
+@media screen and (max-width: 993px) {
+  .landing-page .home .home-content {
+    margin: 80px 0 0 0;
+  }
+  .landing-page .navbar .btn-blue {
+    padding: 12px 28px;
+    display: inline-block;
+  }
+  .laptop {
+    display: block;
+  }
+  .landing-page .home .home-content .top {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    padding: 0 50px;
+  }
+  .chat-bubble {
+    position: absolute;
+    right: 65px;
+    top: 117px;
+  }
+  .landing-page .home .big-title {
+    font-size: 5rem;
+    line-height: 80px;
+  }
+  .landing-page .home .sub-title {
+    font-size: 1rem;
+  }
+  .landing-page .home .para {
+    font-size: 1.1rem;
+    padding: 24px 0 36px 0;
+  }
+  .landing-page .home .home-content .bottom {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 90px;
+    position: relative;
+  }
+  .hide {
+    display: none;
+  }
+  .video-icon {
+    right: 9px;
+    bottom: -21px;
+  }
+  .case-study .header .title {
+    font-size: 3rem;
+    line-height: 60px;
+  }
+  .case-study .re-design-box .title {
+    font-size: 2.3rem;
+    line-height: 51px;
+  }
+  .case-study .para {
+    width: 100%;
+    line-height: 30px;
+    padding: 32px 40px 64px 40px;
+  }
+  .hide-img {
+    display: none;
+  }
+  .case-study .re-design-box .left-text {
+    position: relative;
+    width: 100%;
+    margin: 25px 0;
+  }
+  .get-in-touch .header .contact-icons,
+  .get-in-touch .form {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .btn-blue {
+    font-size: 1.188rem;
+    padding: 12px 28px;
+  }
+  .btn-blue:hover {
+    font-size: 1rem;
+    padding: 12px 28px;
+  }
+  .btn-white {
+    padding: 12px 28px;
+    font-size: 1rem;
+  }
+  .btn-white:hover {
+    padding: 12px 28px;
+    font-size: 1rem;
+  }
+  .video-icon {
+    right: 9px;
+    bottom: -21px;
+    width: 160px;
+  }
+  .landing-page .home {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  .h-56 {
+    height: auto;
+  }
+  .landing-page .home .home-content .top {
+    text-align: start;
+    padding: 0;
+  }
+  .landing-page .home .big-title,
+  .landing-page .home .sub-title,
+  .landing-page .home .para {
+    text-align: start;
+  }
+  .landing-page .home .home-content .star-img {
+    text-align: start;
+    display: inline-block;
+    animation: round 6s 2s infinite;
+  }
+  .chat-bubble {
+    position: absolute;
+    right: 45px;
+    top: 127px;
+    width: 170px;
+  }
+
+  .case-study .header .title {
+    font-size: 2.5rem;
+    line-height: 60px;
+  }
+  .case-study .para {
+    width: 100%;
+    font-size: 1.1rem;
+    line-height: 30px;
+    padding: 32px 40px 64px 40px;
+  }
+  .founders-guarantee .right .feedback {
+    font-size: 1.3rem;
+    line-height: 32px;
+  }
+  .founders-guarantee .right {
+    padding: 0 40px;
+  }
+  .founders-guarantee .right .para {
+    padding: 24px 0;
+    font-size: 1.3rem;
+    line-height: 29px;
+  }
+  .top-space,
+  .top-space2 {
+    padding: 0 0 0 0;
+  }
+  .get-in-touch .header .contact-icons,
+  .get-in-touch .form {
+    width: 100%;
+    margin: auto;
+  }
+  .get-in-touch .header .title {
+    font-size: 3rem;
+    line-height: 62px;
+    letter-spacing: -0.03em;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 560px) {
+  .btn-blue {
+    font-size: 0.9rem;
+    padding: 10px 24px;
+  }
+  .btn-blue:hover {
+    font-size: 0.9rem;
+    padding: 10px 24px;
+  }
+  .btn-white {
+    padding: 10px 24px;
+    font-size: 0.9rem;
+  }
+  .btn-white:hover {
+    padding: 10px 24px;
+    font-size: 0.9rem;
+  }
+  .landing-page .home .home-content .top {
+    text-align: start;
+    padding: 0 25px;
+  }
+  .landing-page .home .sub-title {
+    font-size: 0.875rem;
+  }
+  .landing-page .home .para {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 24px 0 42px 0;
+  }
+  .landing-page .home .big-title {
+    font-size: 3.7rem;
+    line-height: 64px;
+  }
+  .landing-page .home .bottom .box {
+    justify-content: start;
+    padding: 0 25px;
+  }
+  .horizontal {
+    display: flex;
+    align-items: center;
+  }
+  .landing-page .home .bottom .box .desc {
+    padding-top: 0;
+    padding-left: 14px;
+  }
+  .case-study {
+    /* margin-top: 50px; */
+    padding: 0 25px;
+    text-align: start;
+  }
+  .case-study .header .sub-title {
+    font-size: 0.75rem;
+    text-align: start;
+  }
+  .case-study .header .title {
+    font-size: 2.75rem;
+    line-height: 48px;
+    text-align: start;
+    padding-top: 24px;
+  }
+  .case-study .para {
+    font-size: 1rem;
+    line-height: 25px;
+    text-align: start;
+    padding: 32px 0 64px 0;
+  }
+  .case-study .re-design-box .title {
+    font-size: 2rem;
+    line-height: 40px;
+    padding: 0 24px;
+    color: #1d65eb;
+  }
+  .case-study .re-design-box .msg {
+    font-size: 0.875rem;
+    line-height: 21px;
+    padding: 25px 24px 12px 24px;
+  }
+  .case-study .re-design-box .user-info {
+    padding: 12px 0 0 24px;
+  }
+  .case-study .re-design-box .btn-blue {
+    display: flex;
+    margin-left: 24px;
+  }
+  .blue-box {
+    padding: 0 44px;
+  }
+  .blue-box .big-title {
+    font-size: 3rem;
+    line-height: 66px;
+  }
+  .blue-box .big-title span {
+    font-size: 2.75rem;
+    line-height: 56px;
+  }
+  .blue-box .sub-title {
+    font-size: 1rem;
+    line-height: 12px;
+    margin: 10px 0 108px 0;
+  }
+  .founders-guarantee {
+    padding: 60px 24px 0 24px;
+  }
+  .heading .sub-title {
+    font-size: 0.75rem;
+    line-height: 30px;
+    text-align: start;
+  }
+  .heading .title {
+    font-size: 2.75rem;
+    line-height: 48px;
+    text-align: start;
+    padding-right: 48px;
+  }
+  .founders-guarantee .right {
+    padding: 68px 0;
+  }
+  .founders-guarantee .title-center {
+    font-size: 1.5rem;
+    line-height: 34px;
+    text-align: start;
+    color: #171717;
+    padding-bottom: 0;
+    margin-top: 0;
+    padding: 0 12px;
+  }
+  .founders-guarantee .title-center span {
+    font-size: 1.875rem;
+    font-style: normal;
+    color: #2e72f3;
+  }
+  .testimonials {
+    padding: 48px 24px;
+    background-color: #f3f7fe;
+  }
+  .hide-avatar {
+    display: none;
+  }
+  .testimonials .msg-box .user-detail .info .name {
+    padding-left: 0;
+    font-size: 1rem;
+    color: #171717;
+    letter-spacing: 1px;
+    font-weight: 600;
+    line-height: 19px;
+  }
+  .testimonials .msg-box .user-detail .info .role {
+    text-align: center;
+    line-height: 14px;
+    padding-left: 0;
+    font-size: 0.688rem;
+    color: #6d6e71;
+    letter-spacing: 1px;
+  }
+  .get-in-touch {
+    padding: 265px 24px 0 24px;
+  }
+  .get-in-touch .header .title {
+    font-size: 3rem;
+    line-height: 48px;
+    text-align: start;
+  }
+
+  .get-in-touch .header .sub-title {
+    font-size: 1rem;
+    line-height: 23px;
+    text-align: start;
+  }
+  .get-in-touch .header .contact-icons {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 48px;
+    padding: 24px 0;
+    width: 100%;
+    margin: auto;
+    text-align: start;
+  }
+  .get-in-touch .header .contact-icons .horizontal .icon {
+    text-align: end;
+    padding-left: 20px;
+  }
+  .get-in-touch .header .contact-icons .horizontal {
+    margin: 4px 0;
+  }
+  .get-in-touch .header .contact-icons .text {
+    padding-left: 14px;
+    font-size: 1rem;
+  }
+  .get-in-touch .header .title {
+    font-size: 2.5rem;
+    line-height: 52px;
+    padding-right: 40px;
+    text-align: start;
+  }
+
+  .get-in-touch .header .sub-title {
+    font-size: 1rem;
+    line-height: 23px;
+    text-align: start;
+    margin-top: 14px;
+  }
+  .accordion-button {
+    font-size: 1.25rem;
+  }
+  .accordion-body {
+    font-size: 1rem;
+  }
+  .show-logo {
+    display: block;
+  }
+  .footer .right-content .info {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+  .footer .links {
+    font-size: 2.5rem;
+    line-height: 62px;
+    padding: 51px 51px 48px 24px;
+  }
+  .footer .right-content .info .details ul {
+    margin-bottom: 28px;
+    list-style-position: inside;
+  }
+  .footer .right-content .info .details {
+    padding-left: 24px;
+  }
+  .footer .right-content .info .details ul li {
+    color: #c6c6c6;
+    line-height: 0;
+  }
+  .footer .right-content .social {
+    margin: 42px 24px;
+  }
+  .footer .copyright,
+  .footer .footer-nav ul {
+    padding-left: 24px;
+  }
+  .h-56 {
+    height: auto;
+  }
+}
+
+@media (min-width: 576px) {
+  .modal-dialog {
+    max-width: 781px;
+    margin: 1.75rem auto;
+  }
+}

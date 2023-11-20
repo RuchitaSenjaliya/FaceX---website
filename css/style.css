@@ -1,0 +1,647 @@
+body {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  height: 100%;
+}
+ul {
+  padding-left: 0;
+}
+.landing-page {
+  background: url("../img/home.png");
+  min-height: 1080px;
+  width: 100%;
+  padding: 40px 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.landing-page .shape {
+  position: absolute;
+  left: 0;
+  bottom: -30px;
+  width: 100%;
+}
+.landing-page .navbar {
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 8px 14px;
+}
+
+.btn-blue {
+  background-color: #2871fa;
+  color: #fff;
+  padding: 14px 28px;
+  border: 2px solid #2871fa;
+  border-radius: 28px;
+  transition: 0.4s all;
+}
+.btn-blue:hover {
+  background-color: transparent;
+  color: #2871fa;
+  padding: 14px 28px;
+  border: 2px solid #2871fa;
+  border-radius: 28px;
+}
+.landing-page .navbar .btn-blue {
+  padding: 0 28px;
+}
+.btn-white {
+  background-color: #fff;
+  color: #2871fa;
+  padding: 14px 28px;
+  border: 2px solid #fff;
+  border-radius: 28px;
+  font-size: 1.188rem;
+  font-weight: 600;
+  transition: 0.4s all;
+}
+.btn-white:hover {
+  background-color: #2871fa;
+  color: #fff;
+  padding: 14px 28px;
+  border: 2px solid #fff;
+  border-radius: 28px;
+  font-size: 1.188rem;
+  font-weight: 600;
+}
+
+.landing-page .navbar .nav-item .nav-link {
+  margin: 0 8px;
+  color: #2e72f3;
+  font-size: 1.188rem;
+  font-weight: 500;
+}
+.landing-page .home {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.landing-page .home .home-content {
+  margin: 120px 0 0 0;
+}
+.landing-page .home .home-content .top {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 0 80px;
+}
+.landing-page .home .home-content .bottom {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  margin-top: 110px;
+  position: relative;
+}
+.chat-bubble {
+  position: absolute;
+  right: 242px;
+  top: 155px;
+}
+.landing-page .home .home-content .star-img {
+  text-align: center;
+  animation: round 6s 2s infinite;
+}
+@keyframes round {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+.landing-page .home .big-title {
+  font-size: 6rem;
+  font-weight: 700;
+  line-height: 84px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  padding: 16px 0 12px 0;
+}
+.landing-page .home .sub-title {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+}
+.landing-page .home .para {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  padding: 36px 0 42px 0;
+}
+.landing-page .home .bottom .box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.landing-page .home .bottom .box .desc {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  /* font-size: 17px; */
+  text-align: center;
+  font-weight: 400;
+  line-height: 16px;
+  padding-top: 12px;
+}
+.landing-page .home .bottom .box .line {
+  position: absolute;
+  right: -9px;
+}
+.video-icon {
+  position: fixed;
+  right: 80px;
+  bottom: 10px;
+  z-index: 999;
+}
+.modal-content {
+  background-color: #2e72f3;
+  padding: 42px;
+}
+.modal-content .video {
+  text-align: end;
+}
+.case-study {
+  /* margin-top: 50px; */
+  text-align: center;
+}
+
+.case-study .header .sub-title {
+  text-transform: uppercase;
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #525665;
+}
+.case-study .header .title {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #171717;
+  padding-top: 48px;
+}
+.case-study .header .title span {
+  color: #1d65eb;
+}
+.case-study .para {
+  color: #525665;
+  width: 70%;
+  margin: auto;
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  padding: 32px 0 64px 0;
+}
+
+.case-study .re-design-box {
+  background-color: #edf0f9;
+  border-radius: 30px;
+  position: relative;
+  overflow: hidden;
+}
+.case-study .re-design-box .back {
+  position: relative;
+  z-index: 2;
+}
+.case-study .re-design-box .back .front {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 5;
+}
+
+.case-study .re-design-box .left-text {
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  width: 43%;
+  margin-top: 65px;
+}
+
+.case-study .re-design-box .title {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 61px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  padding: 0 0 0 48px;
+  color: #1d65eb;
+}
+.case-study .re-design-box .msg {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  padding: 25px 0 12px 48px;
+}
+
+.case-study .re-design-box .user-info {
+  display: flex;
+  align-items: center;
+  padding: 12px 0 0 48px;
+}
+.case-study .re-design-box .user-info .detail {
+  padding-left: 14px;
+}
+.case-study .re-design-box .user-info .detail .name {
+  padding-left: 14px;
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.case-study .re-design-box .user-info .detail .role {
+  padding-left: 14px;
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+
+.case-study .re-design-box .rating {
+  display: flex;
+  padding: 8px 0 0 48px;
+}
+
+.case-study .re-design-box .btn-blue {
+  padding: 12px 24px;
+  display: flex;
+  margin-left: 48px;
+  margin-top: 25px;
+}
+.case-study .re-design-box .laptop {
+  text-align: center;
+}
+.blue-box {
+  background: url("../img/Landing.png");
+  min-height: 671px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 12px 0 0 0;
+  text-align: center;
+  color: #fff;
+}
+
+.blue-box .big-title {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 90px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  width: 45%;
+  margin: auto;
+}
+.blue-box .big-title span {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 90px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+.itallic {
+  font-style: italic;
+}
+
+.blue-box .sub-title {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  margin: 40px 0 108px 0;
+}
+
+/*//////////////////////// founders-guarantee///////////////  */
+.founders-guarantee {
+  background-color: #f3f7fe;
+  padding-top: 60px;
+}
+.heading .sub-title {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #525665;
+}
+.heading .title {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: center;
+  margin-bottom: 34px;
+}
+.heading .title span {
+  color: #1d65eb;
+}
+.founders-guarantee .right {
+  padding: 68px 40px;
+}
+.founders-guarantee .right .feedback {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #525665;
+}
+.founders-guarantee .right .para {
+  padding: 32px 0;
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 31px;
+  font-weight: 700;
+  line-height: 39px;
+  letter-spacing: -0.03em;
+  color: #1d65eb;
+}
+.founders-guarantee .title-center {
+  font-family: "FK Grotesk Trial", sans-serif;
+  text-transform: capitalize;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 59px;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #525665;
+  padding-bottom: 90px;
+  margin-top: 63px;
+}
+.founders-guarantee .title-center span {
+  font-size: 50px;
+  font-style: italic;
+  color: #2e72f3;
+}
+.testimonials {
+  padding: 48px 0;
+  background-color: #f3f7fe;
+}
+
+.testimonials .msg-box {
+  background-color: #edf0f9;
+  margin: 40px 0;
+  padding: 40px 36px;
+  border-radius: 12px;
+  text-align: center;
+}
+.testimonials .msg-box .msg {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: center;
+  color: #525665;
+}
+
+.testimonials .msg-box .rating {
+  padding: 40px 0 18px 0;
+}
+.testimonials .msg-box .user-detail,
+.testimonials .msg-box .user-detail .avatar-pics {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonials .msg-box .user-detail .info {
+  text-align: left;
+  padding-left: 12px;
+}
+.top-space {
+  padding: 72px 0 0 0;
+}
+.top-space2 {
+  padding: 140px 0 0 0;
+}
+.get-in-touch {
+  background: url("../img/Landing\ \(1\).png");
+  min-height: 364vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 265px;
+  color: #f1f1f1;
+}
+
+.get-in-touch .header .title {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 82px;
+  letter-spacing: -0.03em;
+  text-align: center;
+}
+
+.get-in-touch .header .sub-title {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}
+.get-in-touch .header .contact-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 48px;
+  padding: 24px 0;
+  width: 50%;
+  margin: auto;
+}
+.get-in-touch .form {
+  background-color: #f1f1f1;
+  color: #000;
+  border-radius: 16px;
+  width: 50%;
+  margin: auto;
+  margin-top: 64px;
+  padding: 50px;
+  margin-bottom: 70px;
+}
+.accordion {
+  margin: 86px 0;
+}
+.accordion-item {
+  background-color: transparent;
+  border: none;
+}
+.accordion-button {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.accordion-button.collapsed {
+  color: #fff;
+  background-color: transparent;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.781);
+  padding: 24px 0;
+}
+.accordion-button:not(.collapsed) {
+  color: #fff;
+  background-color: transparent;
+  box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.71);
+  padding: 24px 0;
+}
+.accordion-body {
+  padding: 1.5rem 0;
+  font-size: 1.125rem;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url("../img/Icon\ _\ arrow-down-rounded.svg");
+  transform: rotate(-180deg);
+}
+.accordion-button::after {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "";
+  background-image: url("../img/Icon\ _\ arrow-down-rounded.svg");
+  background-repeat: no-repeat;
+  background-size: 1.25rem;
+  transition: transform 0.2s ease-in-out;
+}
+.get-in-touch .form .title {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1d65eb;
+}
+.get-in-touch .form .inputs {
+  margin-top: 42px;
+}
+.get-in-touch .form .inputs label {
+  color: #909090;
+}
+.get-in-touch .form .form-control {
+  border: 1px solid #c4c4c4;
+  background: transparent;
+}
+.get-in-touch .form textarea {
+  height: 200px;
+}
+
+.get-in-touch .form .btn-blue {
+  margin-top: 84px;
+}
+.footer {
+  background-color: #171717;
+  color: #d9e0f1;
+  padding: 80px 0;
+}
+
+.footer .links {
+  list-style: none;
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  text-align: left;
+}
+.logo {
+  text-align: end;
+}
+.logo .divider {
+  margin-top: 16px;
+  height: 5px;
+  background-color: #d9e0f1;
+}
+.footer .right-content .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-top: 48px;
+}
+.footer .right-content .info .details ul {
+  margin-bottom: 64px;
+  list-style-position: inside;
+}
+.footer .right-content .info .details ul li {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 10px;
+  letter-spacing: 0.04em;
+  text-align: left;
+  margin-bottom: 24px;
+  text-transform: uppercase;
+}
+.footer .right-content .info .details ul p {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: -0.01em;
+  text-align: left;
+}
+.hide-logo {
+  display: none;
+}
+.h-56 {
+  height: 560px;
+}
+
+.footer .copyright {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-right: 48px;
+}
+.laptop {
+  display: none;
+}
+.footer .footer-nav ul {
+  list-style: none;
+  display: flex;
+}
+.footer .footer-nav ul li {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding-right: 48px;
+}
