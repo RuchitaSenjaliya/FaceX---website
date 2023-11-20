@@ -5,6 +5,31 @@ body {
 ul {
   padding-left: 0;
 }
+/* .chat-bubble {
+  position: relative;
+  background: #ff0d1e;
+  display: inline-block;
+  width: 239px;
+  height: 95px;
+  margin: 40px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
+
+.chat-bubble:after {
+  content: "";
+  position: absolute;
+  top: 25px;
+  left: -32px;
+  width: 70px;
+  height: 30px;
+  background-color: #ff0d1e;
+  transform: skew(55deg);
+  transform-origin: top right;
+  border-radius: 15% 0 0 0 / 25%;
+  z-index: 1;
+} */
 .landing-page {
   background: url("../img/home.png");
   min-height: 1080px;
@@ -579,7 +604,7 @@ ul {
   text-align: left;
   margin-top: 34px;
 }
-.logo {
+.footer .logo {
   text-align: end;
 }
 .logo .divider {
