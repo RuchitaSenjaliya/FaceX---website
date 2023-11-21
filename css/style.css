@@ -5,6 +5,49 @@ body {
 ul {
   padding-left: 0;
 }
+.talk-bubble {
+  display: inline-block;
+  position: absolute;
+  top: 140px;
+  right: 300px;
+  width: 200px;
+  height: auto;
+  background-color: #2e72f3;
+}
+.talktext {
+  text-align: start;
+}
+.round {
+  border: 1px solid #fff;
+  border-radius: 10px;
+  width: 200px;
+  height: 100px;
+  padding: 6px;
+}
+.tri-right.border.btm-left-in:before {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 30px;
+  right: auto;
+  top: auto;
+  bottom: -40px;
+  border: 3px solid;
+  border-color: #b4c0d5 transparent transparent #bbc0c9;
+}
+.tri-right.btm-left-in:after {
+  content: " ";
+  position: absolute;
+  width: 0;
+  height: 0;
+  left: 38px;
+  right: auto;
+  top: auto;
+  bottom: -20px;
+  border: 3px solid;
+  border-color: #2e72f3 transparent transparent #2e72f3;
+}
 /* .chat-bubble {
   position: relative;
   background: #ff0d1e;
