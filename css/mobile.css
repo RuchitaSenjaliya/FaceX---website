@@ -250,7 +250,7 @@
     position: absolute;
     right: 45px;
     top: 127px;
-    width: 170px;
+    /* width: 170px; */
   }
 
   .case-study .header .title {
@@ -322,6 +322,17 @@
   .btn-white:hover {
     padding: 10px 24px;
     font-size: 0.9rem;
+  }
+  .round {
+    border: 1px solid #fff;
+    border-radius: 10px;
+    width: 170px;
+    height: 105px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 12px;
   }
   .landing-page .home .home-content .top {
     text-align: start;
@@ -552,6 +563,22 @@
   }
   .h-56 {
     height: auto;
+  }
+
+  .chat-bubble {
+    position: absolute;
+    right: 10px;
+    top: 117px;
+    width: 180px;
+  }
+  .chat-bubble .chat-content {
+    padding: 8px;
+
+    height: 90px;
+    width: 100%;
+  }
+  .chat-bubble #chat-msg {
+    font-size: 12px;
   }
 }
 @media screen and (max-width: 321px) {

@@ -114,13 +114,27 @@
                   srcset=""
                   class="img-fluid" />
               </div>
-              <span class="chat-bubble">
-                <img
-                  src="./img/text bubble.png"
-                  alt=""
-                  srcset=""
-                  class="img-fluid" />
-              </span>
+              <div class="chat-bubble">
+                <img src="./img/chat.png" alt="" srcset="" class="img-fluid" />
+                <div class="chat-content">
+                  <div id="chat-msg">Welcome to FaceX...</div>
+                  <div class="next">
+                    <div
+                      class="text"
+                      type="button"
+                      onclick="document.getElementById('chat-msg').innerHTML = 'We create the most trusted facial aesthetic brands.'">
+                      next
+                      <span>
+                        <img
+                          src="./img/iconamoon_arrow-right-2-fill.svg"
+                          alt=""
+                          srcset="" />
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
               <div class="big-title">FaceX</div>
               <div class="sub-title">Facial Aesthetics Web Design Agency</div>
               <div class="para">
@@ -783,6 +797,5 @@
       </div>
     </section>
     <script src="./js/bootstrap.bundle.min.js"></script>
-    <script src="./js/index.js"></script>
   </body>
 </html>
