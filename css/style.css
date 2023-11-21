@@ -606,11 +606,16 @@ ul {
   list-style: none;
   font-family: "FK Grotesk Neue Trial", sans-serif;
   font-size: 3.5rem;
+
   font-weight: 700;
   line-height: 72px;
   letter-spacing: -0.03em;
   text-align: left;
   margin-top: 34px;
+}
+.footer .links li a {
+  color: #d9e0f1;
+  text-decoration: none;
 }
 .footer .logo {
   text-align: end;
