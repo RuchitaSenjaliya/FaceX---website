@@ -11,7 +11,7 @@
     line-height: 54px;
   }
   .get-in-touch .header .contact-icons {
-    width: 50%;
+    width: 27%;
     margin: auto;
   }
   .get-in-touch .form {
@@ -22,6 +22,9 @@
   }
   .landing-page .home .home-content .bottom {
     width: 100%;
+  }
+  .founders-guarantee .title-center {
+    width: 70%;
   }
 }
 @media screen and (max-width: 1200px) {
@@ -40,8 +43,8 @@
   }
   .chat-bubble {
     position: absolute;
-    right: 132px;
-    top: 155px;
+    right: 89px;
+    top: -85px;
   }
   .case-study .re-design-box .back .front {
     position: absolute;
@@ -65,11 +68,15 @@
     font-size: 24px;
     line-height: 29px;
   }
-  .testimonials .msg-box .msg {
-    font-size: 16px;
+  .founders-guarantee .title-center {
+    width: 80%;
   }
   .testimonials .msg-box {
-    padding: 40px 24px;
+    padding: 30px 10px;
+  }
+  .testimonials .msg-box .msg {
+    font-size: 14px;
+    line-height: 25px;
   }
   .get-in-touch .header .contact-icons {
     width: 50%;
@@ -81,15 +88,21 @@
   .footer .links {
     font-size: 3rem;
   }
+  .heading .title {
+    width: 70%;
+  }
 }
 @media screen and (max-width: 1025px) {
+  .landing-page .home .bottom .box .desc {
+    font-size: 1rem;
+  }
   .case-study .header .title {
     font-size: 3rem;
     line-height: 62px;
     padding-top: 38px;
   }
   .blue-box .big-title {
-    width: 100%;
+    width: 82%;
   }
   .btn-blue {
     font-size: 1.188rem;
@@ -107,6 +120,12 @@
     padding: 14px 28px;
     font-size: 1.188rem;
   }
+  .founders-guarantee .title-center {
+    width: 90%;
+  }
+  .get-in-touch .form {
+    padding: 50px 80px;
+  }
 }
 @media screen and (max-width: 993px) {
   .landing-page .home .home-content {
@@ -115,6 +134,9 @@
   .landing-page .navbar .btn-blue {
     padding: 12px 28px;
     display: inline-block;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
   }
   .laptop {
     display: block;
@@ -127,9 +149,17 @@
   }
   .chat-bubble {
     position: absolute;
-    right: 65px;
-    top: 117px;
+    right: 6px;
+    top: -67px;
+    width: 200px;
   }
+  .chat-bubble .chat-content {
+    height: 105px;
+  }
+  .chat-bubble .chat-content .chat-msg {
+    font-size: 14px;
+  }
+
   .landing-page .home .big-title {
     font-size: 5rem;
     line-height: 80px;
@@ -155,6 +185,7 @@
     right: 9px;
     bottom: -21px;
   }
+
   .case-study .header .title {
     font-size: 3rem;
     line-height: 60px;
@@ -179,18 +210,72 @@
     font-size: 1.2rem;
     line-height: 34px;
   }
+  .heading .title {
+    width: 90%;
+  }
   .hide-img {
     display: none;
+  }
+  .hide-cards {
+    display: none;
+  }
+  .show-carousel {
+    display: block;
   }
   .case-study .re-design-box .left-text {
     position: relative;
     width: 100%;
     margin: 25px 0;
   }
-  .get-in-touch .header .contact-icons,
+  .get-in-touch .header .contact-icons {
+    width: 60%;
+    margin: auto;
+  }
   .get-in-touch .form {
     width: 80%;
     margin: auto;
+  }
+  .footer .right-content .show-logo {
+    display: none;
+  }
+  .footer .hide-logo {
+    display: block;
+  }
+  .footer .logo img {
+    width: 120px;
+  }
+  .footer .links {
+    font-size: 2.5rem;
+    line-height: 62px;
+    padding: 51px 51px 48px 24px;
+  }
+
+  .footer .right-content .info .details ul {
+    margin-bottom: 28px;
+    list-style-position: inside;
+  }
+  .footer .right-content .info .details {
+    padding-left: 24px;
+  }
+  .footer .right-content .info .details ul li {
+    color: #c6c6c6;
+    line-height: 0;
+  }
+  .footer .right-content .info {
+    flex-direction: column;
+  }
+  .footer .right-content .social {
+    margin: 42px 24px;
+  }
+  .footer .copyright,
+  .footer .footer-nav ul {
+    padding-left: 24px;
+  }
+  .h-56 {
+    height: auto;
+  }
+  .footer .right-content .info .details ul li::before {
+    top: -5px;
   }
 }
 
@@ -203,7 +288,7 @@
     text-align: center;
   }
   .btn-blue {
-    font-size: 1.188rem;
+    font-size: 1rem;
     padding: 12px 28px;
   }
   .btn-blue:hover {
@@ -219,9 +304,13 @@
     font-size: 1rem;
   }
   .video-icon {
-    right: 9px;
+    right: 76px;
     bottom: -21px;
     width: 160px;
+  }
+  .small {
+    width: 30px;
+    height: 30px;
   }
   .landing-page .home {
     color: #fff;
@@ -229,8 +318,10 @@
     flex-direction: column;
     justify-content: start;
   }
-  .h-56 {
-    height: auto;
+  .heading .title {
+    width: 100%;
+    font-size: 3rem;
+    line-height: 60px;
   }
   .landing-page .home .home-content .top {
     text-align: start;
@@ -245,12 +336,6 @@
     text-align: start;
     display: inline-block;
     animation: round 6s 2s infinite;
-  }
-  .chat-bubble {
-    position: absolute;
-    right: 45px;
-    top: 127px;
-    /* width: 170px; */
   }
 
   .case-study .header .title {
@@ -267,7 +352,7 @@
   .blue-box .big-title span {
     line-height: 60px;
     font-size: 3rem;
-    padding: 0 34px;
+    padding: 0 0;
   }
   .blue-box .sub-title {
     font-size: 1.25rem;
@@ -289,12 +374,24 @@
     padding: 24px 0;
     font-size: 1.3rem;
     line-height: 29px;
+    display: block;
+  }
+  .founders-guarantee .right .para span {
+    padding-left: 12px;
+  }
+  .founders-guarantee .right .para span svg {
+    height: 35;
+    width: 35;
   }
   .top-space,
   .top-space2 {
     padding: 0 0 0 0;
   }
-  .get-in-touch .header .contact-icons,
+  .get-in-touch .header .contact-icons {
+    width: 63%;
+    margin: auto;
+  }
+
   .get-in-touch .form {
     width: 100%;
     margin: auto;
@@ -305,23 +402,46 @@
     letter-spacing: -0.03em;
     text-align: center;
   }
+  .footer .footer-nav {
+    margin: 24px 0;
+  }
 }
 @media screen and (max-width: 560px) {
+  .landing-page {
+    padding: 20px 0;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
   .btn-blue {
-    font-size: 0.9rem;
-    padding: 10px 24px;
+    font-size: 0.8rem;
+    padding: 10px 4px;
   }
   .btn-blue:hover {
-    font-size: 0.9rem;
-    padding: 10px 24px;
+    font-size: 0.8rem;
+    padding: 10px 4px;
+  }
+  .btn-blue span svg,
+  .btn-white span svg {
+    width: 24px;
+    height: 24px;
+  }
+  .btn-blue:hover span svg,
+  .btn-white:hover span svg {
+    width: 24px;
+    height: 24px;
   }
   .btn-white {
     padding: 10px 24px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
   .btn-white:hover {
     padding: 10px 24px;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
+  }
+  .case-study .re-design-box .rating {
+    display: flex;
+    padding: 12px 0 0 30px;
   }
   .round {
     border: 1px solid #fff;
@@ -334,6 +454,7 @@
     justify-content: space-between;
     padding: 12px;
   }
+
   .landing-page .home .home-content .top {
     text-align: start;
     padding: 0 25px;
@@ -362,10 +483,11 @@
   .landing-page .home .bottom .box .desc {
     padding-top: 0;
     padding-left: 14px;
+    font-size: 0.9rem;
   }
   .case-study {
     /* margin-top: 50px; */
-    padding: 0 25px;
+    padding: 0 12px;
     text-align: start;
   }
   .case-study .header .sub-title {
@@ -373,8 +495,9 @@
     text-align: start;
   }
   .case-study .header .title {
-    font-size: 2.75rem;
+    font-size: 2.5rem;
     line-height: 48px;
+    width: 100%;
     text-align: start;
     padding-top: 24px;
   }
@@ -387,25 +510,27 @@
   .case-study .re-design-box .title {
     font-size: 2rem;
     line-height: 40px;
-    padding: 0 24px;
+    padding: 0 12px;
     color: #1d65eb;
   }
   .case-study .re-design-box .msg {
     font-size: 0.875rem;
     line-height: 21px;
-    padding: 25px 24px 12px 24px;
+    padding: 25px 12px 12px 12px;
   }
   .case-study .re-design-box .user-info {
-    padding: 12px 0 0 24px;
+    padding: 12px 0 0 12px;
   }
   .case-study .re-design-box .btn-blue {
     display: flex;
-    margin-left: 24px;
+    margin-left: 12px;
   }
   .blue-box {
-    padding: 0 44px;
+    padding: 0 14px;
   }
+
   .blue-box .big-title {
+    width: 100%;
     font-size: 3rem;
     line-height: 66px;
     padding: 0;
@@ -418,10 +543,10 @@
   .blue-box .sub-title {
     font-size: 1rem;
     line-height: 12px;
-    margin: 10px 0 108px 0;
+    margin: 10px 0 88px 0;
   }
   .founders-guarantee {
-    padding: 60px 24px 0 24px;
+    padding: 60px 12px 0 12px;
   }
   .heading .sub-title {
     font-size: 0.75rem;
@@ -444,7 +569,7 @@
     color: #171717;
     padding-bottom: 0;
     margin-top: 0;
-    padding: 0 12px;
+    padding: 0 0;
   }
   .founders-guarantee .title-center span {
     font-size: 1.875rem;
@@ -452,7 +577,7 @@
     color: #2e72f3;
   }
   .testimonials {
-    padding: 48px 24px;
+    padding: 48px 12px;
     background-color: #f3f7fe;
   }
   .hide-avatar {
@@ -475,8 +600,9 @@
     letter-spacing: 1px;
   }
   .get-in-touch {
-    padding: 265px 24px 0 24px;
+    padding: 265px 12px 0 12px;
   }
+
   .get-in-touch .header .title {
     font-size: 3rem;
     line-height: 48px;
@@ -492,14 +618,13 @@
     flex-direction: column;
     align-items: flex-start;
     margin-top: 48px;
-    padding: 24px 0;
+    padding: 0 0 24px 0;
     width: 100%;
     margin: auto;
     text-align: start;
   }
   .get-in-touch .header .contact-icons .horizontal .icon {
     text-align: end;
-    padding-left: 20px;
   }
   .get-in-touch .header .contact-icons .horizontal {
     margin: 4px 0;
@@ -508,18 +633,8 @@
     padding-left: 14px;
     font-size: 1rem;
   }
-  .get-in-touch .header .title {
-    font-size: 2.5rem;
-    line-height: 52px;
-    padding-right: 40px;
-    text-align: start;
-  }
-
-  .get-in-touch .header .sub-title {
-    font-size: 1rem;
-    line-height: 23px;
-    text-align: start;
-    margin-top: 14px;
+  .get-in-touch .form {
+    padding: 0px;
   }
   .accordion-button {
     font-size: 1.25rem;
@@ -527,58 +642,44 @@
   .accordion-body {
     font-size: 1rem;
   }
-  .show-logo {
-    display: block;
-  }
-  .footer .right-content .info {
-    display: flex;
-    flex-direction: column;
-    margin-top: 0;
-  }
-  .footer .logo img {
-    width: 120px;
-  }
-  .footer .links {
-    font-size: 2.5rem;
-    line-height: 62px;
-    padding: 51px 51px 48px 24px;
-  }
-  .footer .right-content .info .details ul {
-    margin-bottom: 28px;
-    list-style-position: inside;
-  }
-  .footer .right-content .info .details {
-    padding-left: 24px;
-  }
-  .footer .right-content .info .details ul li {
-    color: #c6c6c6;
-    line-height: 0;
-  }
-  .footer .right-content .social {
-    margin: 42px 24px;
-  }
-  .footer .copyright,
-  .footer .footer-nav ul {
-    padding-left: 24px;
-  }
-  .h-56 {
-    height: auto;
-  }
 
   .chat-bubble {
     position: absolute;
-    right: 10px;
-    top: 117px;
+    right: 20px;
     width: 180px;
   }
   .chat-bubble .chat-content {
     padding: 8px;
-
     height: 90px;
     width: 100%;
   }
-  .chat-bubble #chat-msg {
+  .footer .footer-nav ul li {
+    padding-right: 13px;
+  }
+  .chat-bubble .chat-content .chat-msg {
     font-size: 12px;
+  }
+  .get-in-touch .faq-content .header .sub-title {
+    padding-top: 32px;
+  }
+  .get-in-touch .form .submit .btn-blue {
+    font-size: 1rem;
+    padding: 10px 12px;
+  }
+  .video video {
+    width: 218px;
+    margin: auto;
+  }
+  .modal-content img {
+    width: 174px;
+  }
+  .get-in-touch .form .submit {
+    text-align: start;
+  }
+  .heading .title {
+    width: 100%;
+    font-size: 2.2rem;
+    line-height: 45px;
   }
 }
 @media screen and (max-width: 321px) {
