@@ -10,10 +10,10 @@
     font-size: 2rem;
     line-height: 54px;
   }
-  .get-in-touch .header .contact-icons {
+  /* .get-in-touch .header .contact-icons {
     width: 27%;
     margin: auto;
-  }
+  } */
   .get-in-touch .form {
     width: 60%;
   }
@@ -78,10 +78,10 @@
     font-size: 14px;
     line-height: 25px;
   }
-  .get-in-touch .header .contact-icons {
-    width: 50%;
+  /* .get-in-touch .header .contact-icons {
+    width: 35%;
     margin: auto;
-  }
+  } */
   .testimonials .msg-box .user-detail .info {
     font-size: 0.8rem;
   }
@@ -150,7 +150,7 @@
   .chat-bubble {
     position: absolute;
     right: 6px;
-    top: -67px;
+    top: -52px;
     width: 200px;
   }
   .chat-bubble .chat-content {
@@ -227,10 +227,10 @@
     width: 100%;
     margin: 25px 0;
   }
-  .get-in-touch .header .contact-icons {
-    width: 60%;
+  /* .get-in-touch .header .contact-icons {
+    width: 50%;
     margin: auto;
-  }
+  } */
   .get-in-touch .form {
     width: 80%;
     margin: auto;
@@ -280,9 +280,39 @@
 }
 
 @media screen and (max-width: 769px) {
+  .landing-page .home .home-content .bottom {
+    display: none;
+  }
+  .landing-page .home .scrolling-wrapper {
+    display: block;
+  }
+  .scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-top: 80px;
+
+    .box {
+      display: inline-block;
+      margin: 0 24px;
+    }
+  }
+  .scrolling-wrapper {
+    -webkit-overflow-scrolling: touch;
+  }
+  .scrolling-wrapper::-webkit-scrollbar {
+    display: none;
+  }
   .video video {
     width: 300px;
     margin: auto;
+  }
+  /* .horizontal {
+    display: flex;
+    align-items: center;
+  } */
+  .landing-page .home .bottom .box .desc {
+    padding-left: 14px;
   }
   .modal-content .video {
     text-align: center;
@@ -341,6 +371,7 @@
   .case-study .header .title {
     font-size: 2.5rem;
     line-height: 60px;
+    width: 90%;
   }
   .case-study .para {
     width: 100%;
@@ -387,10 +418,10 @@
   .top-space2 {
     padding: 0 0 0 0;
   }
-  .get-in-touch .header .contact-icons {
+  /* .get-in-touch .header .contact-icons {
     width: 63%;
     margin: auto;
-  }
+  } */
 
   .get-in-touch .form {
     width: 100%;
@@ -405,6 +436,10 @@
   .footer .footer-nav {
     margin: 24px 0;
   }
+  .horizontal {
+    display: flex;
+    align-items: center;
+  }
 }
 @media screen and (max-width: 560px) {
   .landing-page {
@@ -414,7 +449,6 @@
     box-shadow: none;
   }
   .btn-blue {
-    font-size: 0.8rem;
     padding: 10px 4px;
   }
   .btn-blue:hover {
@@ -441,7 +475,7 @@
   }
   .case-study .re-design-box .rating {
     display: flex;
-    padding: 12px 0 0 30px;
+    padding: 12px 0 0 18px;
   }
   .round {
     border: 1px solid #fff;
@@ -476,10 +510,10 @@
     justify-content: start;
     padding: 0 25px;
   }
-  .horizontal {
+  /* .horizontal {
     display: flex;
     align-items: center;
-  }
+  } */
   .landing-page .home .bottom .box .desc {
     padding-top: 0;
     padding-left: 14px;
@@ -614,6 +648,7 @@
     line-height: 23px;
     text-align: start;
   }
+
   .get-in-touch .header .contact-icons {
     flex-direction: column;
     align-items: flex-start;
@@ -631,10 +666,13 @@
   }
   .get-in-touch .header .contact-icons .text {
     padding-left: 14px;
-    font-size: 1rem;
+    font-size: 0.9rem;
   }
   .get-in-touch .form {
-    padding: 0px;
+    padding: 24px;
+  }
+  .get-in-touch .form .title {
+    text-align: start;
   }
   .accordion-button {
     font-size: 1.25rem;
@@ -715,14 +753,13 @@
   }
 
   .get-in-touch {
-    padding: 265px 24px 0 24px;
+    padding: 265px 12px 0 12px;
   }
   .get-in-touch .header .title {
     font-size: 2.5rem;
     line-height: 48px;
     text-align: start;
   }
-
   .footer .links {
     font-size: 2rem;
   }

@@ -5,6 +5,7 @@ body {
 ul {
   padding-left: 0;
 }
+
 .text-gradient {
   background: linear-gradient(180deg, #3f81fc 0%, #1961e9 100%);
   -webkit-text-fill-color: transparent;
@@ -215,6 +216,18 @@ ul {
   padding-top: 12px;
   color: #f1f1f1;
 }
+.landing-page .home .scrolling-wrapper {
+  display: none;
+}
+.landing-page .home .scrolling-wrapper .box .desc {
+  font-family: "FK Grotesk Neue Trial", sans-serif;
+  font-size: 1.125rem;
+  text-align: center;
+  font-weight: 400;
+  line-height: 16px;
+  padding-left: 14px;
+  color: #f1f1f1;
+}
 .landing-page .home .bottom .box .line {
   position: absolute;
   right: -9px;
@@ -386,7 +399,7 @@ ul {
   line-height: 80px;
   letter-spacing: -0.03em;
   text-align: center;
-  width: 68%;
+  width: 54%;
   margin: auto;
 }
 .blue-box .big-title span {
@@ -576,7 +589,7 @@ ul {
   text-align: center;
   margin-top: 48px;
   padding: 24px 0;
-  width: 24%;
+  width: 350px;
   margin: auto;
 }
 
@@ -686,7 +699,6 @@ ul {
 .footer .links li a {
   color: #d9e0f1;
   text-decoration: none;
-  transition: 0.4s all;
 }
 
 .footer .links li a:hover {
